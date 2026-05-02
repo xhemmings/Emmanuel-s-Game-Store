@@ -49,3 +49,191 @@ h1 {
   width: 50px;
   height: 50px;
 }
+
+#brand-logo img{
+  width: 150px;
+  height: 100px;
+}
+
+
+/* --------------- Navigation Bar --------------- */
+
+#main-nav {
+    width: 100%;
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#brand-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-links li a: hover {
+    background: #4287f5; /* Your theme blue */
+    color: white;
+}
+
+#nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+#nav-icons button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+#menu-toggle {
+    display: none; /* You can enable this for mobile later */
+}
+
+/* Optionally make it prettier on hover */
+#nav-icons button:hover {
+    color: #4287f5;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif; /* Roboto font, weighted at 700 */
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+}
+#cart {
+  width: 230px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+  position: sticky;
+  top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 12px;
+}
+
+.cart-total-box {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.cart-total-label {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+.cart-total-amount {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+
+}
+
+.cartnode {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.cartnode img {
+  width: 52px;
+  height: 52px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+ 
+.cart-item-info {
+  flex: 1;
+
+}
+
+.cart-item-name {
+  font-size: 13px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 2px;
+}
+
+.cart-item-price {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.cart-item-controls button {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn {
+  margin-left: auto;
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 0;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.delete-btn:hover {
+  color: #cc0000;
+}
