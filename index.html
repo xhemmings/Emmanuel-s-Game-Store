@@ -16,20 +16,38 @@
 
 <body>
 
-  <!-- Header Section -->
-  <header>
-    <div id="storename">
-      <h1>Emmanuel's Game Shop!</h1>
+<header id="main-nav">
+    <div id="nav-container">
+        <div id="brand-logo">
+          <img src="https://i.pinimg.com/236x/6c/41/f3/6c41f32397106926eb67d2a467330555.jpg">
+       </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="nav-icons">
+            <button id="search-btn"></button>
+            <button id="menu-toggle">☰</button>
+        </div>
     </div>
-  </header>
+</header>
 
-  <!-- Main Page Content -->
-  <main>
-    <div id="page-container">  
-      <div id="product" class="image-grid"></div>
-      <div id="cart">Customer Order</div>
-    </div>
-  </main>
+<h1>Emmanuel's Game Shop!</h1>
+<div id="page-container">
+  <!-- Left side: Product Gallery -->
+  <div id="product-section">
+    <div id="product" class="image-grid"></div>
+  </div>
+  <!-- Right side: Cart -->
+  <div id="cart-section">
+    <div id="cart">Customer Order</div>
+  </div>
+</div>
+
 
 </body>
 </html>
